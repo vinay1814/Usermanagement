@@ -1,0 +1,77 @@
+.container {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 7px 14px;
+  padding: 7px 14px;
+  margin-right: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  background: rgb(0, 162, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 7px 14px;
+  margin-right: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+
+/* Edit Button */
+.edit-btn {
+  background: #4CAF50;
+}
+
+.edit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  background: #3d8b40;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #e53935;
+}
+
+.delete-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  background: #c62828;
+}
+
+/* Click Animation */
+.edit-btn:active,
+.delete-btn:active {
+  transform: scale(0.92);
+}
+
